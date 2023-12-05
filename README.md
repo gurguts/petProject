@@ -17,3 +17,6 @@ Service-Oriented Architecture (SOA). This means, my application is divided into 
 1. **Authorization and Authentication Service**
 2. **Income and Expense Tracking Service**
 3. **Reporting Service**
+
+## Additional Information
+Unit tests have also been written to ensure the robustness of the application.

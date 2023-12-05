@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AuthenticationAuthorizationService/AuthenticationAuthorizationService.iml" filepath="$PROJECT_DIR$/AuthenticationAuthorizationService/AuthenticationAuthorizationService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ExpenseAccounting.iml" filepath="$PROJECT_DIR$/.idea/ExpenseAccounting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExpenseIncomeAccountingService/ExpenseIncomeAccountingService.iml" filepath="$PROJECT_DIR$/ExpenseIncomeAccountingService/ExpenseIncomeAccountingService.iml" />
+    </modules>
+  </component>
+</project>

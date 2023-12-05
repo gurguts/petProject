@@ -1,0 +1,88 @@
+.highlighted {
+    background-color: #f0f0f0;
+}
+
+ body {
+     font-family: Arial, sans-serif;
+     margin: 20px;
+ }
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #797979;
+    color: #333;
+}
+
+tr {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: rgba(89, 133, 245, 0.7);
+}
+
+tr.highlighted {
+    background-color: rgba(0, 76, 255, 0.89);
+}
+
+button {
+    background-color: rgba(0, 76, 255, 0.4);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #002580;
+}
+
+.income-row {
+    background-color: #3cff4b;
+}
+
+.expense-row {
+    background-color: #ff404e;
+}
+
+#editFormContainer {
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 25px;
+    width: 300px;
+    margin: 20px auto;
+}
+
+#editFormContainer select,
+#editFormContainer input[type="number"],
+#editFormContainer input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+#backButton {
+    display: inline-block;
+    margin-right: 10px;
+}

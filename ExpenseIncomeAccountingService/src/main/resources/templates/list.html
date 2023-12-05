@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>List</title>
+    <link rel="stylesheet" type="text/css" href="/css/list/list.css">
+    <link rel="stylesheet" type="text/css" href="/css/background.css">
+
+</head>
+<body>
+
+<h1>List of income and expenses</h1>
+
+<button id="backButton">Back</button>
+
+
+<div id="actionButtonsContainer" style="display: none;">
+    <button id="deleteButton">Delete</button>
+    <button id="changeButton">Change</button>
+</div>
+
+<div id="editFormContainer" style="display: none;">
+    <label for="editDescription"></label><select id="editDescription" >
+        <option value="salary">Salary</option>
+        <option value="freelance">Freelance</option>
+        <option value="investment">Investment</option>
+        <option value="business">Business</option>
+        <option value="benefits">Benefits</option>
+        <option value="donations">Donations</option>
+        <option value="rent">Rent</option>
+    </select>
+    <label for="editAmount"></label><input type="number" id="editAmount" placeholder="Amount">
+    <label for="editDate"></label><input type="date" id="editDate">
+    <label for="editType"></label><select id="editType">
+        <option value="income">Income</option>
+        <option value="expense">Expense</option>
+    </select>
+    <button id="submitEdit">Submit Changes</button>
+</div>
+
+<table id="dataTable">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Description</th>
+        <th>Amount</th>
+        <th>Date</th>
+        <th>Type</th>
+    </tr>
+    </thead>
+    <tbody>
+
+    </tbody>
+</table>
+<script src="/js/list/list.js"></script>
+<script src="/js/list/backButton.js"></script>
+<script src="/js/list/sort.js"></script>
+<script src="/js/list/deleteButton.js"></script>
+<script src="/js/list/changeButton.js"></script>
+</body>
+</html>
